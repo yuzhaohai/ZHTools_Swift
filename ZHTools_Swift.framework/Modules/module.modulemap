@@ -1,0 +1,4 @@
+framework module ZHTools_Swift {
+    header "ZHTools_Swift-Swift.h"
+    requires objc
+}
