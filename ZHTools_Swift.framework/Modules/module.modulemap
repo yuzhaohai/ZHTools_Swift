@@ -1,4 +1,6 @@
 framework module ZHTools_Swift {
-    header "ZHTools_Swift-Swift.h"
-    requires objc
+  umbrella header "ZHTools_Swift.h"
+
+  export *
+  module * { export * }
 }
